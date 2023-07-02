@@ -1,3 +1,4 @@
+awswrangler
 pandas
 pyarrow
 numpy
