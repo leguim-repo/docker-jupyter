@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+    jupyter-mike:
+        ports:
+            - '8888:8888'
+        user: root
+        environment:
+            - GRANT_SUDO=yes
+            - JUPYTER_ENABLE_LAB=yes
+        volumes:
+            - '$PWD:/home/jovyan/work'
+        image: jupyter-mike
+
