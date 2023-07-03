@@ -13,6 +13,7 @@ Build a docker image of Jupyter. Check Dockerfile in order to customize your own
 ### 10-run-jupyter.sh
 
 Run Jupyter container
+Check the output for access to Jupyter
 
 ### 99-run-as-root-jupyter.sh
 
@@ -29,19 +30,12 @@ pip install nbconvert
 
 <https://nbconvert.readthedocs.io/en/latest/install.html>
 
-## parquet-tools
+## Recommend Tools
 
-Parquet tools are installed more information:  
+### parquet-tools
+
+Parquet tools for show parquet files in the terminal:  
 https://pypi.org/project/parquet-tools/
-
-## aws-cli v2
-
-The aws-cli are installed too, to play with AWS.  
-No AWS credentialas are configured. To use aws-cli first execute:  
-
-```code
-aws configure
-```
 
 Thanks Laura for idea.
 
