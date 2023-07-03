@@ -1,3 +1,2 @@
-mkdir code/datalake
-mkdir code/private
+mkdir work
 docker build -f $(pwd)/Dockerfile -t jupyter-mike .
