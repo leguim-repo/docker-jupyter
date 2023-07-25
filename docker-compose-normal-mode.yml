@@ -1,11 +1,12 @@
 version: '3.3'
 services:
-    jupyter-mike:
-        ports:
-            - '8888:8888'
-        environment:
-            - JUPYTER_ENABLE_LAB=yes
-        volumes:
-            - '$PWD/work:/home/jovyan/work'
-            - '$PWD/examples:/home/jovyan/examples'
-        image: jupyter-mike
+  jupyter-mike:
+    ports:
+      - '8888:8888'
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    volumes:
+      - '$PWD/work:/home/jovyan/work'
+      - '$PWD/examples:/home/jovyan/examples'
+    image: jupyter-mike
+
