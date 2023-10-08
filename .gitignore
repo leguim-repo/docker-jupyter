@@ -3,3 +3,4 @@
 .ipynb_checkpoints/**
 examples/.ipynb_checkpoints/**
 work/**
+/.env

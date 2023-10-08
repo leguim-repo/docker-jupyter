@@ -3,7 +3,13 @@ pandas
 pyarrow
 numpy
 pytz
+pymysql
 boto3
 xlrd # xlrd==1.2.0 # if your want .xlsx support
 openpyxl # alternative to xlrd
 rich # console with colors
+diagrams
+matplotlib
+XlsxWriter
+scikit-learn
+pickleshare
